@@ -48,6 +48,6 @@ To inspect the traffic and any errors that may occur on the Linux VM i configure
 <img src="https://github.com/riek10/azure-network-protocols/assets/113129662/3ee8585a-8172-443f-86d9-a1791956e5a9" height="50%" width="50%"/>
 </p>
 <p>
-In this final step im filtering through ONLY SSH traffic on wireshark and typing a few commmands on the UBUNTU VM to see what response i would receive on wireshark. I was extremely interested in the results of this step because ive completed countless labs and personal projects using Linux OS and not once did i considered observing the findings from a connection between Linux and Windows. In the two screenshots above you can see the successfull SSH into the Linux machine and you can see wireshark capturing the traffic between the two machines. 
+In this final step im filtering through ONLY SSH traffic on wireshark and typing a few commmands on the UBUNTU VM to see what response i would receive on wireshark. I was extremely interested in the results of this step because ive completed countless labs and personal projects using Linux OS and not once did i considered observing the findings from a connection between Linux and Windows. In the two screenshots above you can see the successfull SSH into the Linux machine and you can see wireshark capturing the traffic between the two machines.
 </p>
 <br />
