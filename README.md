@@ -21,9 +21,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Install Wireshark
-- Step 2
-- Step 3
-- Step 4
+- Filter through ICMP traffic ONLY / Deny ICMP Traffic 
+- Filter through SSH traffic ONLY/ Capture command traffic on wireshark
 
 <h2>Actions and Observations</h2>
 
@@ -45,9 +44,10 @@ To inspect the traffic and any errors that may occur on the Linux VM i configure
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/riek10/azure-network-protocols/assets/113129662/f3cc355e-7cce-4ced-8680-93a5ed18b738" height="50%" width="50%"/>
+<img src="https://github.com/riek10/azure-network-protocols/assets/113129662/3ee8585a-8172-443f-86d9-a1791956e5a9" height="50%" width="50%"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this final step im filtering through ONLY SSH traffic on wireshark and typing a few commmands on the UBUNTU VM to see what response i would receive on wireshark. I was extremely interested in the results of this step because ive completed countless labs and personal projects using Linux OS and not once did i considered observing the findings from a connection between Linux and Windows. In the two screenshots above you can see the successfull SSH into the Linux machine and you can see wireshark capturing the traffic between the two machines. 
 </p>
 <br />
